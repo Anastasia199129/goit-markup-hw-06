@@ -320,6 +320,15 @@ img {
   pointer-events: none;
 }
 
+.b-modal {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-tex-color);
+}
+
 /* about */
 
 .hidden {
@@ -702,7 +711,7 @@ img {
 }
 
 .input-footer:focus {
-  border-color: var(--accent-color);
+  border-color: 2px solid var(--accent-color);
 }
 
 .input-footer::placeholder {
