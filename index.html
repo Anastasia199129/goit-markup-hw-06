@@ -350,26 +350,30 @@
     </button> 
 <b class="b-modal">Оставьте свои данные, мы вам перезвоним</b>
 <form action="#">
-    <label for="name"> Имя</label>
-    <span><input type="name" name="my-name" id="name">
-        <svg width="18" height="18">
+    <label class="modal-label" for="name"> Имя</label>
+    <div class="wrapper-input"><input class="modal-input" type="name" name="my-name" id="name">
+        <svg class="svg-input-modal" width="18" height="18">
             <use href="./img/sprite.svg.svg#icon-name"></use>
         </svg>
-    </span>
-    <label for="phone">Телефон</label>
-    <span><input type="tel" name="my-phone" id="phone">
-        <svg width="18" height="18">
+    </div>
+    <label class="modal-label" for="phone">Телефон</label>
+    <span class="wrapper-input"><input class="modal-input" type="tel" name="my-phone" id="phone">
+        <svg class="svg-input-modal" width="18" height="18">
             <use href="./img/sprite.svg.svg#icon-tel"></use>
         </svg>
     </span>
-    <label for="email">Почта</label>
-    <span><input type="email" name="my-email" id="email">
-        <svg width="18" height="18">
+    <label class="modal-label" for="email">Почта</label>
+    <span class="wrapper-input"><input class="modal-input" type="email" name="my-email" id="email">
+        <svg class="svg-input-modal" width="18" height="18">
             <use href="./img/sprite.svg.svg#icon-email"></use>
         </svg>
     </span>
-    <label for="coment"></label>
-    <textarea name="" id="coment"></textarea>
+    <label class="modal-label" for="coment">Комментарий</label>
+    <textarea class="modal-textarea" name="comment" id="coment"  placeholder="введите текст"></textarea>
+    <input type="checkbox" name="agree" id="agree">
+    <label class="label-check" for="agree">соглашаюсь с рассылкой и принимаю</label>
+    <a class="link-check" href="">Условия договора</a>
+    <button class="send-btn" type="submit">Отправить</button>
 </form>
 </div>
 
