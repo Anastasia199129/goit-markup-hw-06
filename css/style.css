@@ -320,11 +320,11 @@ img {
   padding-right: 7px;
   border-color: var(--fill-acon);
   cursor: pointer;
-  transition: fill 250ms var(--transition);
 }
 
 .button-close {
   fill: var(--bleak-color);
+  transition: fill 250ms var(--transition);
 }
 
 .button:focus .button-close,
