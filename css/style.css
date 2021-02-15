@@ -12,6 +12,7 @@
   --border-header: #ececec;
   --background-overley: rgba(47, 48, 58, 0.4);
   --transition: cubic-bezier(0.4, 0, 0.2, 1);
+  --dark-background-button: #188ce8;
 }
 
 body {
@@ -263,8 +264,8 @@ img {
 
 .main-btn:hover,
 .main-btn:focus {
-  background-color: var(--white-color);
-  color: var(--bleak-color);
+  background-color: var(--dark-background-button);
+  color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -914,7 +915,7 @@ img {
 
 .subscribe-button:hover,
 .subscribe-button:focus {
-  background-color: var(--dark-fone);
+  background-color: var(--dark-background-button);
 }
 
 /* portfolio */
