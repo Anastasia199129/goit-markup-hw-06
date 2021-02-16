@@ -350,6 +350,7 @@ img {
 }
 
 .modal-label {
+  display: inline-block;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.172;
@@ -403,6 +404,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  resize: none;
   transition: border-color 250ms var(--transition);
 }
 
@@ -416,6 +418,10 @@ img {
   line-height: 1.143;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.wrapper-check-box {
+  text-align: center;
 }
 
 .label-check,
@@ -847,7 +853,7 @@ img {
 }
 
 .subscribe-conteiner {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .b-footer {
@@ -876,6 +882,7 @@ img {
 }
 
 .input-footer::placeholder {
+  display: inline-block;
   color: rgba(255, 255, 255, 0.6);
 }
 
